@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Raleway:700');
+@import "normalize";
+@import "variables";
+@import "mixin";
+@import "grid";
+
+// font-family: 'Lato', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+*, *:after, *:before{
+	@include box-sizing;
+}
+
+body{
+	font-family: $main-font;
+	color: $font-color;
+}
+
+header{
+	background: #02496a url(../img/slide1-bg.png) center center no-repeat;
+	background-size: cover;
+}
